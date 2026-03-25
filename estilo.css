@@ -336,11 +336,12 @@ body {
 /* ============================================ */
 
 @media (max-width: 768px) {
+
     /* Ajustes generales */
     .container {
         padding: 0 20px;
     }
-    
+
     /* Header optimizado para móvil */
     .nav-bar {
         flex-direction: column;
@@ -348,27 +349,27 @@ body {
         gap: 12px;
         padding: 12px 0;
     }
-    
+
     .logo-area {
         width: 100%;
         justify-content: space-between;
     }
-    
+
     .brand h1 {
         font-size: 1.2rem;
         line-height: 1.3;
     }
-    
+
     .brand p {
         font-size: 0.7rem;
     }
-    
+
     .logo-placeholder {
         width: 50px;
         height: 50px;
         border-radius: 16px;
     }
-    
+
     /* Navegación móvil - scroll horizontal suave */
     .nav-links {
         width: 100%;
@@ -379,209 +380,209 @@ body {
         -webkit-overflow-scrolling: touch;
         scrollbar-width: thin;
     }
-    
+
     .nav-links::-webkit-scrollbar {
         height: 3px;
     }
-    
+
     .nav-links::-webkit-scrollbar-track {
         background: #e2e8f0;
         border-radius: 10px;
     }
-    
+
     .nav-links::-webkit-scrollbar-thumb {
         background: #2563eb;
         border-radius: 10px;
     }
-    
+
     .nav-links a {
         font-size: 0.85rem;
         white-space: nowrap;
         padding: 4px 0;
     }
-    
+
     /* Hero section móvil */
     .hero {
         padding: 40px 0 48px 0;
     }
-    
+
     .hero h2 {
         font-size: 1.6rem;
         line-height: 1.3;
     }
-    
+
     .hero p {
         font-size: 1rem;
         line-height: 1.4;
         padding: 0 8px;
     }
-    
+
     .btn-cta {
         padding: 10px 28px;
         font-size: 0.9rem;
     }
-    
+
     /* Secciones */
     .section {
         padding: 48px 0;
     }
-    
+
     .section-title {
         font-size: 1.7rem;
         display: block;
         text-align: center;
         margin-bottom: 16px;
     }
-    
+
     .section-sub {
         font-size: 1rem;
         text-align: center;
         margin-bottom: 32px;
         padding: 0 12px;
     }
-    
+
     /* Grid de tarjetas - una columna en móvil */
     .grid-2col {
         grid-template-columns: 1fr;
         gap: 24px;
     }
-    
+
     .card {
         padding: 24px 20px;
         border-radius: 24px;
     }
-    
+
     .card h3 {
         font-size: 1.4rem;
     }
-    
+
     .card-icon {
         font-size: 2rem;
         margin-bottom: 16px;
     }
-    
+
     /* Highlight box - principios adicionales */
     .highlight-box {
         padding: 24px 16px;
         margin-top: 32px;
         border-radius: 24px;
     }
-    
-    .highlight-box > div {
+
+    .highlight-box>div {
         gap: 24px !important;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
-    .highlight-box > div > div {
+
+    .highlight-box>div>div {
         flex: 1;
         min-width: 120px;
     }
-    
+
     .highlight-box i {
         font-size: 1.8rem !important;
     }
-    
+
     .highlight-box strong {
         font-size: 0.9rem;
         display: block;
         margin-top: 8px;
     }
-    
-    .highlight-box br + span, 
+
+    .highlight-box br+span,
     .highlight-box div div {
         font-size: 0.8rem;
     }
-    
+
     /* Valores y listas */
     .values-list li {
         font-size: 0.95rem;
         gap: 10px;
     }
-    
+
     .values-list i {
         font-size: 1rem;
         min-width: 20px;
     }
-    
+
     /* Team grid - responsive */
     .team-grid {
         gap: 16px;
     }
-    
+
     .team-card {
         width: calc(50% - 16px);
         min-width: 140px;
         padding: 20px 12px;
     }
-    
+
     .team-card i {
         font-size: 2.2rem;
     }
-    
+
     .team-card h4 {
         font-size: 1rem;
     }
-    
+
     .team-card p {
         font-size: 0.75rem;
     }
-    
+
     /* Sección de contacto */
-    #contacto .container > div {
+    #contacto .container>div {
         padding: 0 8px;
     }
-    
+
     #contacto .section-title {
         font-size: 1.5rem;
     }
-    
+
     #contacto p {
         font-size: 0.95rem;
     }
-    
+
     /* Footer móvil */
     .footer {
         padding: 40px 0 24px;
     }
-    
+
     .footer-content {
         flex-direction: column;
         gap: 28px;
         text-align: center;
     }
-    
+
     .footer-col {
         text-align: center;
     }
-    
+
     .footer-col h4 {
         margin-bottom: 12px;
         font-size: 1.1rem;
     }
-    
+
     .social-icons {
         display: flex;
         justify-content: center;
         gap: 24px;
     }
-    
+
     .social-icons a {
         margin: 0;
         font-size: 1.6rem;
     }
-    
+
     .copyright {
         font-size: 0.7rem;
         padding-top: 24px;
         margin-top: 24px;
     }
-    
+
     /* Ajustes para la tarjeta de misión/visión */
     #mision-vision .card:last-child {
         margin-top: 0;
     }
-    
+
     /* Espaciado extra para la sección de visión */
     #mision-vision .card p:last-of-type {
         margin-bottom: 0;
@@ -594,11 +595,11 @@ body {
         width: calc(33.33% - 20px);
         min-width: 140px;
     }
-    
+
     .grid-2col {
         gap: 28px;
     }
-    
+
     .hero h2 {
         font-size: 1.8rem;
     }
@@ -609,55 +610,55 @@ body {
     .container {
         padding: 0 16px;
     }
-    
+
     .brand h1 {
         font-size: 1rem;
     }
-    
+
     .logo-placeholder {
         width: 44px;
         height: 44px;
     }
-    
+
     .hero h2 {
         font-size: 1.4rem;
     }
-    
+
     .hero p {
         font-size: 0.9rem;
     }
-    
+
     .section-title {
         font-size: 1.5rem;
     }
-    
+
     .card h3 {
         font-size: 1.3rem;
     }
-    
+
     .card {
         padding: 20px 16px;
     }
-    
+
     .team-card {
         width: 100%;
         max-width: 200px;
         margin: 0 auto;
     }
-    
+
     .team-grid {
         justify-content: center;
     }
-    
-    .highlight-box > div > div {
+
+    .highlight-box>div>div {
         min-width: 100px;
         font-size: 0.75rem;
     }
-    
+
     .highlight-box i {
         font-size: 1.5rem !important;
     }
-    
+
     .footer-col p,
     .footer-col a {
         font-size: 0.8rem;
@@ -669,11 +670,11 @@ body {
     .hero {
         padding: 32px 0 40px;
     }
-    
+
     .section {
         padding: 40px 0;
     }
-    
+
     .team-card {
         width: calc(33.33% - 20px);
     }
@@ -681,6 +682,7 @@ body {
 
 /* Mejora de touch targets para móviles */
 @media (max-width: 768px) {
+
     .nav-links a,
     .btn-cta,
     .social-icons a,
@@ -688,15 +690,15 @@ body {
         cursor: pointer;
         -webkit-tap-highlight-color: transparent;
     }
-    
+
     .btn-cta:active {
         transform: scale(0.98);
     }
-    
+
     .card {
         transition: transform 0.2s ease;
     }
-    
+
     .card:active {
         transform: scale(0.99);
     }
@@ -708,13 +710,16 @@ body {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-.card, .team-card, .highlight-box {
+.card,
+.team-card,
+.highlight-box {
     animation: fadeInUp 0.4s ease-out forwards;
 }
 
@@ -728,9 +733,145 @@ body {
         outline: 2px solid #2563eb;
         outline-offset: 2px;
     }
-    
+
     .btn-cta:focus {
         outline: 2px solid #1e3a8a;
         outline-offset: 2px;
+    }
+}
+
+/* ============================================ */
+/* 🌟 PROPUESTA CLAVE - PAGOS QR EN EL KIOSKO 🌟 */
+/* ============================================ */
+
+.propuesta-destacada {
+    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+    border-radius: 32px;
+    padding: 48px 24px;
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 35px -12px rgba(37, 99, 235, 0.3);
+}
+
+.propuesta-destacada::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+    animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.6;
+        transform: scale(1.05);
+    }
+}
+
+.propuesta-contenido {
+    position: relative;
+    z-index: 2;
+}
+
+.propuesta-icono {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 20px;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.propuesta-destacada h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.propuesta-destacada p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.propuesta-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 8px 20px;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    .propuesta-destacada {
+        padding: 36px 20px;
+        margin: 32px 0;
+        border-radius: 24px;
+    }
+
+    .propuesta-icono {
+        font-size: 3rem;
+    }
+
+    .propuesta-destacada h2 {
+        font-size: 1.8rem;
+    }
+
+    .propuesta-destacada p {
+        font-size: 1rem;
+        padding: 0 12px;
+    }
+
+    .propuesta-badge {
+        font-size: 0.75rem;
+        padding: 6px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .propuesta-destacada {
+        padding: 28px 16px;
+        margin: 24px 0;
+    }
+
+    .propuesta-destacada h2 {
+        font-size: 1.5rem;
+    }
+
+    .propuesta-icono {
+        font-size: 2.5rem;
     }
 }
