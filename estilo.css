@@ -875,3 +875,368 @@ body {
         font-size: 2.5rem;
     }
 }
+
+/* ============================================ */
+/* 🌟 ESTILOS PARA EL PLAN DE GOBIERNO (PDF) 🌟 */
+/* ============================================ */
+
+/* Sección del plan de gobierno */
+.plan-gobierno {
+    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+    padding: 64px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.plan-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.plan-header h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    margin-bottom: 16px;
+    position: relative;
+    display: inline-block;
+}
+
+.plan-header h2:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    border-radius: 2px;
+}
+
+.plan-header p {
+    color: #475569;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 24px auto 0;
+}
+
+/* Tarjetas de principios */
+.principios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.principio-card {
+    background: white;
+    border-radius: 20px;
+    padding: 24px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.principio-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    border-color: #2563eb;
+}
+
+.principio-icono {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #eef2ff, #ffffff);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border: 1px solid #e2e8f0;
+}
+
+.principio-icono i {
+    font-size: 2rem;
+    color: #2563eb;
+}
+
+.principio-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0f172a;
+}
+
+.principio-card p {
+    color: #475569;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Ejes estratégicos */
+.ejes-container {
+    margin-bottom: 48px;
+}
+
+.ejes-titulo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #0f172a;
+}
+
+.ejes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.eje-item {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s;
+}
+
+.eje-item:hover {
+    border-color: #2563eb;
+    background: #fafcff;
+}
+
+.eje-numero {
+    width: 48px;
+    height: 48px;
+    background: #1e3a8a;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.eje-texto {
+    font-weight: 600;
+    color: #0f172a;
+    font-size: 1rem;
+}
+
+/* Propuestas por eje */
+.propuestas-container {
+    margin-top: 48px;
+}
+
+.propuesta-eje {
+    background: white;
+    border-radius: 28px;
+    padding: 32px;
+    margin-bottom: 32px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.propuesta-eje h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #eef2ff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.propuesta-eje h3 i {
+    font-size: 1.8rem;
+    color: #2563eb;
+}
+
+.propuesta-eje p {
+    color: #334155;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.propuesta-eje ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.propuesta-eje li {
+    margin-bottom: 12px;
+    padding-left: 28px;
+    position: relative;
+    color: #334155;
+    line-height: 1.5;
+}
+
+.propuesta-eje li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Mecanismos de ejecución */
+.mecanismos {
+    background: #f1f5f9;
+    border-radius: 28px;
+    padding: 32px;
+    margin: 48px 0;
+}
+
+.mecanismos h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mecanismos h3 i {
+    color: #2563eb;
+}
+
+.mecanismos p {
+    color: #334155;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.mecanismos ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.mecanismos li {
+    margin-bottom: 12px;
+    padding-left: 28px;
+    position: relative;
+    color: #334155;
+}
+
+.mecanismos li:before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Compromiso final */
+.compromiso-final {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    border-radius: 28px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 48px;
+}
+
+.compromiso-final i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.compromiso-final h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.compromiso-final p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+.compromiso-final .frase-final {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    .plan-header h2 {
+        font-size: 1.6rem;
+    }
+
+    .plan-header p {
+        font-size: 0.95rem;
+    }
+
+    .principios-grid {
+        gap: 16px;
+    }
+
+    .principio-card {
+        padding: 20px;
+    }
+
+    .ejes-titulo {
+        font-size: 1.4rem;
+    }
+
+    .propuesta-eje {
+        padding: 24px;
+    }
+
+    .propuesta-eje h3 {
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+
+    .mecanismos {
+        padding: 24px;
+    }
+
+    .compromiso-final {
+        padding: 28px 20px;
+    }
+
+    .compromiso-final h3 {
+        font-size: 1.4rem;
+    }
+
+    .eje-item {
+        padding: 16px;
+    }
+
+    .eje-numero {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .principio-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .propuesta-eje h3 {
+        font-size: 1.2rem;
+    }
+
+    .propuesta-eje li {
+        font-size: 0.9rem;
+    }
+}
